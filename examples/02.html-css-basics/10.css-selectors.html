@@ -1,0 +1,43 @@
+﻿<!doctype html>
+<head>
+    <title>CSS Selectors</title>
+	<style>
+		div.my-class {
+			border: 1px solid red;
+		}
+		
+		div > .first-paragraph {
+			background-color: yellow;
+		}
+		
+		.inner-span + p{ 
+			color: green;
+			font-weight: bold;
+		}
+		
+		input[type="button"] {
+			color: green;
+			background-color: yellow;
+			border: 3px solid red;
+			font-size: 22px;
+			padding: 15px;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="my-class">Комбинация от css selector-и</div>
+    <div>
+		<p class="first-paragraph">
+			Параграф (p) вложен в div и стилизиран с помощта на вложен селектор
+		</p>
+	</div>
+    <div>
+		<span class="inner-span">Вътрешен спан</span>
+		<p>Първи съседен параграф на вътрешния спан</p>
+		<p>Втори съседен параграф на вътрешния спан</p>
+		<p>Съседен div на вътрешния спан</p>
+	</div>  
+	<input type="button" value="Моят Бутон" />
+</body>
+</html>
