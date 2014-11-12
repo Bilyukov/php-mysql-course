@@ -1,0 +1,33 @@
+﻿<!doctype html>
+<head>
+    <title>CSS Selectors</title>
+    <style>
+	
+		/* Tag Selector - selects all the divs on the page */
+       div{
+		background-color:yellow;
+	   }
+	   
+		/* ID Selector - selects the element in the page with id first-span */
+        #first-span {
+            background-color:green;
+        }
+
+		/* Class Selector - selects al the elements that have class colored-elements */
+        .colored-elements {
+            background-color:red;
+			color:white;
+        }
+		
+		/* Tag Selector - selects the body of the page */
+		body {
+			font-size:32px;
+		}
+    </style>
+</head>
+<body>
+	<div>Това е жълт div елемент</div>
+    <span id="first-span">Това е зелен span елемент селектиран по id</span>
+    <article class="colored-elements">Това е article елемент с червен фон и бели букви селектиран по class</article>    
+</body>
+</html>
