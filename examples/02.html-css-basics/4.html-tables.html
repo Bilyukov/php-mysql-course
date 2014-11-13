@@ -1,0 +1,56 @@
+﻿<!doctype html>
+<html>
+<head>
+	<title>HTML Таблици Демонстрация</title>
+	
+	<style>
+		tr, th, td, tr{
+			font-size: 22px;
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+	</style>
+</head>
+	<body>
+		<table>
+			<thead>
+				<tr>
+					<th>Месец</th>
+					<th>Разходи</th>
+					<th>Спестявания</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>Януари</td>
+					<td>$800</td>
+					<td>$100</td>
+				</tr>
+				<tr>
+					<td>Февруари</td>
+					<td>$1000</td>
+					<td>$80</td>
+				</tr>
+				<tr>
+					<td>Март</td>
+					<td rowspan=2>$1600</td>
+					<td rowspan=2>$280</td>
+				</tr>
+				<tr>
+					<td>Април</td>
+
+				</tr>
+				<tr>
+					<td>Май</td>
+					<td>$900</td>
+					<td>$80</td>
+				</tr>
+				<tr>
+					<td>Април</td>
+					<td colspan="2"> +$780 -$20 </td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
