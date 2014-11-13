@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS оформяне на текст </title>
+	<style>
+		body {
+			color: #0053ff;
+			font-size: 16px;
+		}
+
+		article{
+			float:left;
+			width: 20%;
+			height:300px;
+			border:1px solid red;
+			padding:15px;
+			margin:15px;
+		}
+		
+		article h1{
+			font-size:2.3em;
+		}
+
+		.font-size-ems {
+			font-size: 1.7em;
+		}
+
+		.font-size-pxs {
+			font-size: 20px;
+		}
+
+		.font-family-consolas {
+			font-family: Consolas;
+		}
+
+		.font-family-arial {
+			font-family: Arial;
+		}
+
+		.font-family-verdana {
+			font-family: Verdana;
+		}
+
+		.weight-bold {
+			font-weight: bold;
+		}
+
+		.weight-light {
+			font-weight: lighter;
+		}
+
+		.weight-normal {
+			font-weight: normal;
+		}
+							
+		.font-style-italic {
+			font-style:italic;
+		}
+		.font-style-oblique {
+			font-style:oblique;
+		}
+								 
+		.decoration-none {
+			text-decoration:none;
+		}
+
+		.decoration-underline {
+			text-decoration:underline;
+		}					   
+
+		.decoration-line-trough {
+			text-decoration:line-through;
+		}					
+
+		.decoration-overline {
+			text-decoration:overline;
+		}
+
+		.decoration-blink {
+			text-decoration:blink;
+		}
+		
+	</style>
+</head>
+<body>
+	<section>										   
+		<article>
+			<h1>font-size</h1>
+			<ul>	
+				<li>Текст с размер на шрифта по подразбиране</li>										   
+				<li class="font-size-ems"0>текст с font-size:1.7em</li>
+				<li class="font-size-pxs"0>текст с font-size:20px</li>
+			</ul>
+		</article>	   
+		<article>
+			<h1>font-family</h1>
+			<ul>						
+				<li class="font-family-consolas">текст с шрифт по подразбиране</li>					   
+				<li class="font-family-consolas">текст с font-family:consolas</li>
+				<li class="font-family-arial">текст с font-family:arial</li>
+				<li class="font-family-verdana">текст с font-family:verdana</li>
+			</ul>
+		</article>
+		<article>
+			<h1>font-weight</h1>
+			<ul>						
+				<li class="weight-light">текст с font-weight:light</li>					   
+				<li class="weight-normal">текст с font-weight:normal</li>
+				<li class="weight-bold">текст с font-weight:bold</li>
+			</ul>
+		</article>						
+		<article>
+			<h1>font-styles</h1>
+			<ul>																	   																					   
+				<li>текст без наклон</li>					   
+				<li class="font-style-italic">текст с font-style:italic</li>					   
+				<li class="font-style-oblique">текст с font-style:oblique</li>					   				
+			</ul>
+		</article>
+
+		<article>
+			<h1>font-styles</h1>
+			<ul>																	   																					   
+				<li class="decoration-none">теьт без декориране text-decoration:none</li>	   																					   
+				<li class="decoration-underline">текст с text-decoration:underline</li>	   																					   
+				<li class="decoration-blink">текст с text-decoration:blink</li>	   																					   
+				<li class="decoration-line-trough">текст с text-decoration:line-trough</li>	   																					   
+				<li class="decoration-overline">текст с text-decoration:overline</li>
+			</ul>
+		</article>
+	</section>
+</body>
+</html>

@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Размери</title>
+	<style>
+		table {
+			color: #404040;
+			background-color: #bababa;
+			border: 1px solid #555555;
+			padding: 3px;
+			vertical-align: top;
+			text-align: left;
+			font-size:18px;
+		}
+		
+		tbody:{
+			font-weight: 900;
+		}
+		
+		table tr:nth-child(odd) {
+			background-color: #f1f1f1;
+		}
+		
+		tr {
+			display: table-row;
+			vertical-align: inherit;
+			border-color: inherit;
+		}
+		
+		table td {
+			border: 1px solid #d4d4d4;
+			padding: 5px;
+			padding-top: 7px;
+			padding-bottom: 7px;
+			vertical-align: top;
+		}
+		
+		.important {
+			font-size: 2em;
+			font-weight:500;
+		}
+	</style>
+</head>
+
+<body>
+<table class="reference notranslate">
+	<thead>
+		<tr>
+			<th>Мерна единица</th>
+			<th>Описание</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr class="important">
+			<td>px</td>
+			<td>пиксел (точка от монитора)</td>
+		</tr>
+		<tr class="important">
+			<td>%</td>
+			<td>процент</td>
+		</tr>
+		<tr class="important">
+			<td>em</td>
+			<td>1em се равнява на текущия размер на шрифта. 2em означава 2 пъти по-голям размер от текущия на шрифта и т.н.
+			Ако шрифта е размер 12 px, то 1em ще означава 12 px, 2em - 24 px, 3em - 36px</td>
+		</tr>
+		<tr>
+			<td>in</td>
+			<td>Инч.</td>
+		</tr>
+		<tr>
+			<td>cm</td>
+			<td>Сантиметър</td>
+		</tr>
+		<tr>
+			<td>mm</td>
+			<td>Милиметър</td>
+		</tr>
+		<tr>
+			<td>pt</td>
+			<td>точка (1 pt = 1/72 inch)</td>
+		</tr>
+		<tr>
+			<td>pc</td>
+			<td>Пика (1 pc = 12 points)</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>
+

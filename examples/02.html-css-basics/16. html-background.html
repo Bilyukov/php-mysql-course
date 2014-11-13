@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Пример за Фон</title>
+	<style>
+		body {
+			background: url(images/gradient.png) repeat-x #42843A;
+			width: 500px;
+			height: 500px;
+			font-size:26px;
+		}
+
+		ul {
+			list-style-type: none;
+		}
+
+			ul li {
+				background: url(images/dot.png) no-repeat;
+				background-position: 0 15px;
+				padding-left: 15px;
+				padding-top:5px;
+			}
+
+				ul li li {
+					background: url(images/diamond.png) no-repeat;
+					background-position: 0 15px;
+					padding-left: 15px;
+				}
+	</style>
+</head>
+
+<body>
+	<div class="gradient-back-img"></div>
+	<ul>
+		<li>Елемент от листа
+			<ul>
+				<li>Елемент от под листа</li>
+				<li>Елемент от под листа</li>
+				<li>Елемент от под листа</li>
+			</ul>
+		</li>
+		<li>Елемент от листа</li>
+		<li>Елемент от листа</li>
+	</ul>
+</body>
+</html>
+
