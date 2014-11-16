@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Прозрачност Демонстрация</title>
+</head>
+<body>
+	<div>
+		<img style="opacity:0.1" src="images/goofy.gif" />
+		<img style="opacity:0.3" src="images/goofy.gif" />
+		<img style="opacity:0.5" src="images/goofy.gif" />
+	</div>
+	
+	<div>
+		<img style="opacity:0.7" src="images/goofy.gif" />
+		<img style="opacity:1" src="images/goofy.gif" />
+		<img src="images/goofy.gif" />
+	</div>
+	
+	<div>
+		<img id="animation" style="opacity:1" src="images/goofy.gif" />
+	</div>
+
+</body>
+
+<script>
+	function changeOpacity(){
+		var img = document.getElementById('animation');
+		
+		if(img){
+			var opacity = (img.style.opacity || 1) * 1;
+			img.style.opacity = (opacity * 1 + 0.1) % 1;
+		}
+	}
+	
+	setInterval(changeOpacity, 150);
+</script>
+
+</html>
