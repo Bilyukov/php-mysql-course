@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>CSS Display - Overflow</title>
+	<style>
+	
+		
+		.wrapper {
+			float: left;
+			margin:20px;
+			border: 1px solid red;
+			padding:10px;
+			
+		}
+		
+		.wrapper > div {
+			width:200px;
+			height:200px;
+			background: yellow;
+			border: 1px solid blue;
+		}
+		
+		.wrapper > p{
+			font-weight: bolder;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<p>overflow:visible</p>
+		<div style="overflow:visible">
+			Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. 
+			Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко
+			печатарски букви и ги разбърква, за да напечата с тях книга с примерни шрифтове.
+			Този начин не само е оцелял повече от 5 века, но е навлязъл и в публикуването на
+		</div>
+	</div>
+	<div class="wrapper">
+		<p>overflow:scroll</p>
+		<div style="overflow:scroll">
+			Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. 
+			Lorem Ipsum е индустриален 
+		</div>
+	</div>
+	<div class="wrapper">
+		<p>overflow:auto</p>
+		<div style="overflow:auto">
+			Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. 
+			Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко
+			печатарски букви и ги разбърква, за да напечата с тях книга с примерни шрифтове.
+			Този начин не само е оцелял повече от 5 века, но е навлязъл и в публикуването на
+		</div>
+	</div>
+	<div class="wrapper">
+		<p>overflow:hidden</p>
+		<div style="overflow:hidden">
+			Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. 
+			Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко
+			печатарски букви и ги разбърква, за да напечата с тях книга с примерни шрифтове.
+			Този начин не само е оцелял повече от 5 века, но е навлязъл и в публикуването на
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>CSS Display - Overflow</title>
+	<style>
+		
+		body, div, span {
+			font-size:27px;
+			margin:10px;
+		}
+	
+		.box {
+			display: block;
+			width: 250px;
+			height: 250px;
+			border: 1px solid #2929d3;
+			background-color: #add8e6;
+			text-align: center;
+		}
+
+		.inline {
+			display: inline;
+		}
+
+		.block {
+			display: block;
+		}
+
+		.none {
+			display: none;
+		}
+
+		.inline-block {
+			display: inline-block;
+		}
+
+		div {
+			background-color: #add8e6;
+		}
+
+		span {
+			background-color: #a020ae;
+		}
+
+		header nav ul li{
+			display:inline-block;
+			height:50px;
+			width:100px;
+			background-color:#add8e6;
+		}
+
+		header nav ul li:nth-of-type(2n+1)
+		{								  
+			background-color:#13b44c;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Линк 1</a></li>
+				<li><a href="#">Линк 2</a></li>
+				<li><a href="#">Линк 3</a></li>
+				<li><a href="#">Линк 4</a></li>
+				<li><a href="#">Линк 5</a></li>
+				<li><a href="#">Линк 6</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+
+		<div>Div без CSS</div>
+		<div class="inline">Div с display: <strong>inline</strong></div>
+		<span>Span без CSS</span>
+		<span class="block">Span с display <strong>block</strong></span>
+
+		<div class="box">
+			Текст в див с размери 250 X 250 и display: <strong>block</strong>
+		</div>
+	</section>
+
+</body>
+</html>

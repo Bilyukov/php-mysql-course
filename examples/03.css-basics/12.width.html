@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Ширина</title>
+	<style>
+		div {
+			width: 40cm;
+			border: 3px solid red;
+			margin-bottom: 20px
+		}
+
+		.min-width {
+			min-width:250px;
+		}
+		
+		.max-width{
+			max-width: 50px;
+		}
+
+		div > div {
+			margin: 5px;
+			width: 50%;
+		}
+		
+	</style>
+</head>
+<body>
+	<div>Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия.
+	Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски букви и ги разбърква,
+	за да напечата с тях книга с примерни шрифтове</div>
+	
+	<div class="min-width">Минимална Ширина: 300px;</div>
+	
+	<div class="max-width">Mаксимална Ширина: 50px;</div>
+	
+	<div>
+		<div>
+			<div>
+				<div>
+					<div>
+						:) :) :)
+					</div>
+				</div>				
+			</div>
+		</div>
+	</div>				  
+</body>
+</html>

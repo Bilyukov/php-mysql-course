@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html >
+<html >
+
+<head>
+	<title>CSS Floating Демострация</title>
+	<style type="text/css">
+		body {font-family:Verdana, Sans-Serif;font-size:25px}
+		div {border:1px solid red}
+	</style>
+</head>
+
+<body>
+	Две изображения които имат CSS float:left;
+	<img src="images/logocss.gif" style="float:left" alt="css"/>
+	<img src="images/logocss.gif" style="float:left" alt="css"/>
+	<span style="color:red">Двете изображения застават едно до друго.</span>
+	<br />
+	<br />
+	<br />
+	<br />
+	Тези изображения имат float:left and clear:both;
+	<img src="images/logocss.gif" style="float:left;clear:both" alt="css"/>
+	<img src="images/logocss.gif" style="float:left;clear:both" alt="css"/>
+	<span style="color:red">Изображенията не застават едно до друго, защото сме приложили clear:both; </span>
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<img src="images/logocss.gif" style="float:left;" alt="css"/>
+	<img src="images/logocss.gif" style="float:right;" alt="css"/>
+	<span style="color:red">Най-честата употреба на css float - картинки, които застават вътре в текст. За да демнстирам по-добре употребата ще добавя малко текст:</span>
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur vitae leo eu felis scelerisque rutrum.
+	Sed sapien. In et arcu sit amet nunc semper accumsan. Mauris eget felis vel pede tempus lacinia. Curabitur eu purus sed
+	tortor porta pellentesque. Fusce aliquet pede at nisi.</span>
+	<img src="images/logocss.gif" style="float:right;" alt="css"/>
+	Donec varius. Mauris gravida elit ac velit. Aliquam accumsan.
+	Praesent condimentum nisl vitae ligula. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse sed ligula.
+	Phasellus pharetra suscipit tortor. Vestibulum viverra urna vitae erat. In a est fermentum nulla ullamcorper nonummy.
+	Aenean eros.
+</body>
+
+</html>
