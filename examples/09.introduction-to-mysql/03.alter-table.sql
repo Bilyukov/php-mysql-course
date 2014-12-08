@@ -1,0 +1,3 @@
+﻿ALTER TABLE Groups RENAME CourseGroups;
+
+ALTER TABLE Users ADD Age INT NULL;
