@@ -41,7 +41,7 @@ CREATE TABLE `children` (
 
 LOCK TABLES `children` WRITE;
 /*!40000 ALTER TABLE `children` DISABLE KEYS */;
-INSERT INTO `children` VALUES (1,'Мирослав','5',2),(2,'Делян','3',1),(3,'Златко','4',4),(4,'Иван','5',2),(5,'Мария','3',1),(6,'Елена','6',2)(7,'Радостина','2',NULL);
+INSERT INTO `children` VALUES (1,'Мирослав','5',2),(2,'Делян','3',1),(3,'Златко','4',4),(4,'Иван','5',2),(5,'Мария','3',1),(6,'Елена','6',2),(7,'Радостина','2',NULL);
 /*!40000 ALTER TABLE `children` ENABLE KEYS */;
 UNLOCK TABLES;
 
