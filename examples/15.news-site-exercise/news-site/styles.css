@@ -1,0 +1,23 @@
+ body {
+	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+
+.site-logo {
+	width:220px;
+}
+
+.article {
+
+	padding:50px 0;
+	border-bottom: 2px solid rgb(232, 232, 232)
+}
+
+.more-info {
+	padding-top:20px;
+	border-top: 1px dotted green;
+}
+
+.article img {
+	width:300px;;
+}
+
