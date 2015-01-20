@@ -41,6 +41,17 @@
 ?>
             </ul>
           </div><!--/.nav-collapse -->
+		  <form action="search.php" method="GET" style="float:right">
+<?php 
+	$searchParam = "";
+	if(isset($_GET['query']) ){
+		$searchParam = $_GET['query'];
+	}
+?>
+			<input type="text" name="query" value="<?= $searchParam ?>" />
+
+			<input type="submit" value="Търси" />
+		  </form>
         </div>
       </div>
     </div>
